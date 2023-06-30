@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    background-color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+    width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    color: rgb(36, 139, 105);
+}
+
+#principal {
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(36, 139, 105);
+    color: aquamarine;
+}
+
+h2 {
+    color: rgb(33, 131, 98);
+}
+
+.basico {
+    color: rgb(36, 139, 105);
+}
+.intermediario {
+    color: rgb(139, 137, 36);
+}
+.avancado {
+    color: rgb(139, 36, 36);
+}
+.destaque {
+    background-color: rgb(219, 208, 55);
+}
