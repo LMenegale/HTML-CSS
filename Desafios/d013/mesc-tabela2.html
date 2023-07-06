@@ -1,49 +1,50 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabela</title>
+    <title>Mesclagem de célula 2</title>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
+            font-size: 50px;
         }
-
         table {
-            border-collapse: collapse;
-            width: 300px;
+            
         }
-
         td {
             border: 1px solid black;
-            padding: 10px;
             text-align: center;
+            width: 200px;
         }
     </style>
 </head>
 <body>
-    <h1>Mesclagem de célualas</h1>
     <table>
         <tr>
-            <td>A</td>
-            <td colspan="2">B</td>
-            
+            <td colspan="4">A</td>
+            <td rowspan="4">B</td>
         </tr>
         <tr>
-            <td rowspan="3">D</td>
+            <td rowspan="4">C</td>
+            <td>D</td>
             <td>E</td>
-            <td rowspan="2">F</td>
+            <td>F</td>
         </tr>
         <tr>
-            
+            <td>G</td>
             <td>H</td>
-            
+            <td>I</td>  
         </tr>
         <tr>
-            
-            <td>K</td>
+            <td>J</td>
             <td>L</td>
+            <td>M</td>
         </tr>
-    </table>
+        <tr>
+            <td colspan="4">N</td>
+        </tr>
+        
+    </table>    
 </body>
 </html>
