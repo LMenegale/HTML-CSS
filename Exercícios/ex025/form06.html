@@ -7,5 +7,25 @@
 </head>
 <body>
     <h1>Color, Range e File</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="icor">Cor: </label>
+            <input type="color" name="cor" id="icor" value="#00ff00">
+        </p>
+
+        <p>
+            <label for="isatisfacao">Nível de satisfação: </label>
+            <input type="range" name="satisfacao" id="isatisfacao" min="1" max="10">
+        </p>
+
+        <p>
+            <label for="ifoto">Foto do perfil: </label>
+            <input type="file" name="foto" id="ifoto">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
 </body>
 </html>
